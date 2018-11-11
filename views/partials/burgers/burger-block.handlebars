@@ -1,0 +1,16 @@
+  <div class="row burger-item">
+    {{#if devoured}}
+      <div class="col-md-4 col-md-offset-2">
+          <p data-id="{{id}}" class="card-title burger-{{id}}">{{burger_name}}</p>
+      </div>
+      <div class="col-md-6">
+          <a data-id="{{id}}" href="#" class="btn btn-default devour-burger">DEVOUR!</a>
+      </div>
+    {{/if}}
+
+    {{#unless devoured}}
+    <div class="col-md-12">
+      <p data-id="{{id}}" class="card-title text-center">{{burger_name}}</p>
+    </div>
+    {{/unless}}
+  </div><br>

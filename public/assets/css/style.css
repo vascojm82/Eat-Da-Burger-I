@@ -1,0 +1,39 @@
+body{
+  background-color: #ffca66;
+}
+
+h1, h2{
+  color: #e26415;
+}
+
+.img-thumbnail{
+  width: 200px;
+  background-color: #ffca66;
+  border: none;
+}
+
+.text-center{
+  display: block !important;
+}
+
+form{
+  margin-top: 60px;
+}
+
+.card{
+  margin-top: 20px;
+  padding: 40px 0;
+}
+
+.card-title{
+  display: inline-block;
+}
+
+.burger-item{
+  background-color: #FFF;
+  padding: 20px 0;
+}
+
+.btn-submit{
+  margin: auto auto 20px auto;
+}
